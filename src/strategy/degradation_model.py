@@ -10,9 +10,7 @@ RAW_DATA_DIR = Path("data/raw")
 
 
 def load_all_laps():
-    """
-    Load laps from all seasons & races
-    """
+    
     all_laps = []
 
     for season_dir in RAW_DATA_DIR.iterdir():
@@ -67,9 +65,7 @@ def prepare_degradation_data(laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def train_degradation_models(laps: pd.DataFrame):
-    """
-    Train one regression model per tire compound
-    """
+    
     models = {}
 
     for compound in ["SOFT", "MEDIUM", "HARD"]:
@@ -102,9 +98,7 @@ def train_degradation_models(laps: pd.DataFrame):
 
 
 def build_degradation_models():
-    """
-    End-to-end training pipeline
-    """
+    
     logger.info("Loading lap data...")
     laps = load_all_laps()
 
