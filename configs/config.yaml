@@ -1,0 +1,7 @@
+fastf1:
+  seasons: [2022]
+  sessions: ["R", "Q"]   # R = Race, Q = Qualifying
+  cache_dir: "data/raw/fastf1_cache"
+
+paths:
+  raw_data: "data/raw"
