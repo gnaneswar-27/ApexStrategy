@@ -12,4 +12,14 @@ The Streamlit app allows users to:
 - See predicted podium probability (%)
 
 
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Run streamlit app
+```bash
+streamlit run app/streamlit_app.py
+```
+
 
