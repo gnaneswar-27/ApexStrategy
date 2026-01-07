@@ -5,8 +5,11 @@ ApexStrategy is an end-to-end machine learning project that combines Formula 1 r
 
 The Streamlit app allows users to:
 
-Select starting grid position
-Choose tire compound
-Adjust stint length (with realistic limits)
-Visualize tire degradation curves
-See predicted podium probability (%)
+- Select starting grid position
+- Choose tire compound
+- Adjust stint length (with realistic limits)
+- Visualize tire degradation curves
+- See predicted podium probability (%)
+
+
+
