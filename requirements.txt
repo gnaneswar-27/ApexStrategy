@@ -1,3 +1,5 @@
+sklearn
+streamlit
 fastf1
 pandas
 pyyaml
