@@ -7,7 +7,7 @@ The Streamlit app allows users to:
 
 - Select starting grid position
 - Choose tire compound
-- Adjust stint length (with realistic limits)
+- Adjust stint length
 - Visualize tire degradation curves
 - See predicted podium probability (%)
 
@@ -21,5 +21,6 @@ Run streamlit app
 ```bash
 streamlit run app/streamlit_app.py
 ```
+
 
 
